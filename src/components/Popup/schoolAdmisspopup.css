@@ -1,0 +1,148 @@
+.schoolAdmissi-Modal {
+  background-color: rgba(247, 245, 245, 0.357) !important;
+}
+
+.schoolAdmissPopup-card {
+  border: none;
+  background: linear-gradient(rgb(75, 128, 0), white);
+}
+
+.school-title {
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 1px 1px rgb(147, 247, 53);
+}
+
+.schoolAdmissPopup-card h2 {
+  color: rgb(7, 66, 7);
+  font-weight: 700;
+  text-shadow: 2px 2px white;
+}
+
+.schoolAdmissPopup-card h4 {
+  color: rgb(225, 64, 5);
+  font-weight: 600;
+  text-shadow: 2px 2px white;
+}
+
+.schoolAdmissPopup-card h6 {
+  font-weight: 600;
+  text-shadow: 2px 2px rgb(178, 237, 42);
+}
+
+.classes-btn {
+  width: 90%;
+  background-color: rgba(85, 107, 47, 0.581);
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.classes-btn:hover {
+  background-color: darkgreen;
+}
+
+.applyOnline-btn {
+  width: 50%;
+  background-color: rgba(130, 165, 16, 0.824);
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.applyOnline-btn:hover {
+  background-color: darkgreen;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 767px) {
+  .classes-btn,
+  .applyOnline-btn {
+      width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .classes-btn {
+      width: 80%;
+  }
+}
+
+
+/* ------------------------------------------------------ */
+.text-focus-in {
+	-webkit-animation: text-focus-in 2000ms cubic-bezier(0.550, 0.085, 0.680, 0.530) 3 both;
+	        animation: text-focus-in 2000ms cubic-bezier(0.550, 0.085, 0.680, 0.530) 3 both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  /* -----------------------------close button ------------------- */
+  .rotate-in-2-cw {
+	-webkit-animation: rotate-in-2-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-in-2-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation rotate-in-2-cw
+ * ----------------------------------------
+ */
+ @-webkit-keyframes rotate-in-2-cw {
+    0% {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      opacity: 1;
+    }
+  }
+  @keyframes rotate-in-2-cw {
+    0% {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      opacity: 1;
+    }
+  }
+  

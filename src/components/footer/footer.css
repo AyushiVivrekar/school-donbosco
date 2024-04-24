@@ -1,0 +1,54 @@
+/* Default styles for the footer */
+.footer {
+  background-color: #101c02;
+  padding: 20px 0;
+  color: white;
+}
+
+.footer h5 {
+  color: #4d6504;
+  font-size: 20px; /* Default font size */
+}
+.footer p{
+  color: #faf2f2;
+  text-decoration: none;
+  font-size: 16px; /* Default font size */
+}
+
+.footer a {
+  color: #faf2f2;
+  text-decoration: none;
+  font-size: 16px; /* Default font size */
+}
+
+.footer a:hover {
+  color: #cdf74e;
+}
+
+/* Media queries for font sizes from 320px to tablet resolutions */
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer h5 {
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+  .footer p{
+    color: #faf2f2;
+    text-decoration: none;
+    font-size: 12px; /* Default font size */
+  }
+  .footer a {
+    font-size: 12px; /* Adjust font size for mobile */
+  }
+}
+
+/* Media queries for tablet resolutions */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer h5 {
+    font-size: 18px; /* Adjust font size for tablets */
+  }
+
+  .footer a {
+    font-size: 14px; /* Adjust font size for tablets */
+  }
+}
+
+/* Add more media queries for larger resolutions if needed */

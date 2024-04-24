@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+.aboutDonBosCoTitle{
+  background-image: linear-gradient(to right, rgb(31, 56, 2), rgba(65, 129, 19, 0.75));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 35px;
+  /* text-align: center; */
+}
+.boscoaboutText{
+  text-align:justify ;
+}
+.fatherImg{
+  border-radius: 10%;
+  border: 1px solid rgb(251, 203, 171);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  height: 70vh;
+  width: 100%;
+  margin-top: 10%;
+}
+
+
+.historyText {
+  background-image: linear-gradient(to right, rgb(31, 56, 2), rgba(65, 129, 19, 0.75));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  margin: 50px 0px 30px 0px;
+}
+
+.schoolaboutcontainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 7, 7, 0.948);
+  overflow: hidden;
+}
+
+.schoolaboutcontainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 7, 7, 0.5); /* Adjust opacity as needed */
+}
+
+.aboutHistoryImgeParallax {
+  background-image: url("../../../public/images/New%20folder/New%20folder/building%20photos/new%20dbicse%20image.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.aboutHistorycontent {
+  background-color: rgba(247, 251, 247, 0.781);
+  color: rgb(28, 71, 4);
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  mix-blend-mode: screen;
+  top: 10%;
+}
+
+/* Media queries for mobile and tablet resolutions */
+@media only screen and (max-width: 1023px) {
+  .historyText {
+    font-size: 25px; /* Adjust font size for tablet */
+    margin: 30px 0px 20px 0px; /* Adjust margin for tablet */
+  }
+
+  .aboutHistoryImgeParallax {
+    padding: 20px; /* Adjust padding for tablet */
+  }
+
+  .aboutHistorycontent {
+    font-size: 14px; /* Adjust font size for tablet */
+    margin: 10px; /* Adjust margin for tablet */
+  }
+}
+
+/* Media query for mobile resolutions */
+@media only screen and (max-width: 767px) {
+  .historyText {
+    font-size: 20px; /* Adjust font size for mobile */
+    margin: 20px 0px 10px 0px; /* Adjust margin for mobile */
+  }
+
+  .aboutHistoryImgeParallax {
+    padding: 15px; /* Adjust padding for mobile */
+  }
+
+  .aboutHistorycontent {
+    font-size: 12px; /* Adjust font size for mobile */
+    margin: 5px; /* Adjust margin for mobile */
+  }
+}
+
+
+
+
+.visionTitle{
+  background-image: linear-gradient(to right, rgb(31, 56, 2), rgba(65, 129, 19, 0.75));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+}
+.visionText{
+  color: rgb(39, 74, 3);
+  font-size: 20px;
+  font-weight: 700;
+}
+.visionCard{
+  border: 1px solid rgb(3, 41, 3);
+  background-color: rgba(203, 254, 126, 0.418);
+  box-shadow: rgb(3, 41, 3) 0px 20px 50px;
+  margin: 50px 0px 20px 0px;
+}
+.qualityTitle{
+  background-image: linear-gradient(to right, rgb(154, 203, 6), rgba(104, 238, 8, 0.75));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+}
+.qualityText{
+  color: rgb(210, 252, 137);
+  font-size: 20px;
+  font-weight: 700;
+ 
+}
+.qualityCard{
+  border: 1px solid rgb(204, 250, 103);
+  background-color: rgba(39, 57, 13, 0.791);
+  box-shadow: rgb(204, 250, 103) 0px 20px 50px;
+  margin: 50px 0px 20px 0px;
+}
+.principalTitle{
+  background-image: linear-gradient(to right, rgb(31, 56, 2), rgba(65, 129, 19, 0.75));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+.principalText{
+  text-align:justify ;
+}
+
+
+/* Mobile Screens (up to 576px) */
+@media (max-width: 576px) {
+  .aboutDonBosCoTitle {
+    font-size: 24px;
+  }
+
+  .fatherImg {
+    height: 40vh;
+    margin-top: 5%;
+  }
+
+  .historyText,
+  .visionTitle,
+  .qualityTitle,
+  .principalTitle {
+    font-size: 20px;
+  }
+
+  .visionText,
+  .qualityText {
+    font-size: 16px;
+  }
+}
+
+/* Tablets and Small Desktops (576px to 991px) */
+@media (min-width: 576px) and (max-width: 991px) {
+  .aboutDonBosCoTitle {
+    font-size: 28px;
+  }
+
+  .fatherImg {
+    height: 50vh;
+    margin-top: 8%;
+  }
+
+  .historyText,
+  .visionTitle,
+  .qualityTitle,
+  .principalTitle {
+    font-size: 22px;
+  }
+
+  .visionText,
+  .qualityText {
+    font-size: 18px;
+  }
+}
+
+
+
